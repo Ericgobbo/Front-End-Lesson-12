@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Ping coming soon page</title>
+
+    <!-- Font awesome -->
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+      integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm"
+      crossorigin="anonymous"
+    />
+
+    <!-- Google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@300;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <header id="header">
+      <img class="header__logo" src="images/logo.svg" alt="logo" />
+    </header>
+    <section class="email-verification-success-message">
+      <p>Thank you for subscribing!</p>
+      <p>We will send you an e-mail as soon as we are ready to go!</p>
+    </section>
+    <main class="section-form">
+      <h1 class="form__title">We are launching <span>soon!</span></h1>
+      <p class="form__subtitle">Subscribe and get notified</p>
+      <form class="form" id="form">
+        <div class="form__input">
+          <input
+            type="email"
+            id="email"
+            class="btn"
+            placeholder="Your email address..."
+          />
+          <small class="error-message">
+            Please provide a valid email address
+          </small>
+        </div>
+        <a
+          class="btn btn-submit"
+          id="btn-submit"
+          aria-label="Click to subscribe"
+          >Notify Me</a
+        >
+      </form>
+    </main>
+    <section class="image">
+      <img
+        src="images/illustration-dashboard.png"
+        alt="illustration dashbord"
+        class="illustration"
+      />
+    </section>
+    <footer id="footer">
+      <ul class="footer__social">
+        <li>
+          <a
+            class="footer__social--link"
+            href="#"
+            aria-label="click to be redirected to the facebook site"
+            ><i class="fab fa-facebook-f"></i
+          ></a>
+        </li>
+        <li>
+          <a
+            class="footer__social--link"
+            href="#"
+            aria-label="click to be redirected to the twitter site"
+            ><i class="fab fa-twitter"></i
+          ></a>
+        </li>
+        <li>
+          <a
+            class="footer__social--link"
+            href="#"
+            aria-label="click to be redirected to the instagram site"
+            ><i class="fab fa-instagram"></i
+          ></a>
+        </li>
+      </ul>
+      <p class="footer__copyright">
+        &copy; Copyright Ping. All rights reserved.
+      </p>
+    </footer>
+  </body>
+</html>
